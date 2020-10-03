@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngf-bootstrap/dist/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+               "node_modules/jquery/dist/jquery.min.js",
+               "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-fundamentals"
+    }
+  },
+  "defaultProject": "ng-fundamentals",
+  "cli": {
+    "analytics": "6b33a623-61c5-43e1-bc89-12a03169948b"
+  }
 }
